@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical"
+    tools:context=".CheckBoxesActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select all  the correct answers "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Which of the following are planets"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/Mercury_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercury" />
+
+    <CheckBox
+        android:id="@+id/sun_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sun" />
+
+    <CheckBox
+        android:id="@+id/Moon_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moon" />
+
+    <CheckBox
+        android:id="@+id/Jipiter_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jipiter" />
+
+    <CheckBox
+        android:id="@+id/Saturn_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturn" />
+
+    <CheckBox
+        android:id="@+id/Pluto_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pluto" />
+
+    <Button
+        android:id="@+id/verifyCheck_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Verify" />
+
+</LinearLayout>

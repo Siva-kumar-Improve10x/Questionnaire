@@ -33,7 +33,7 @@ public class RadioButtonActivity<retrun> extends AppCompatActivity {
         });
     }
 
-    private boolean isCorrect() {
+    public boolean isCorrect() {
         int selectedRb = radioGroupRg.getCheckedRadioButtonId();
         boolean reslut = false;
         if (selectedRb == R.id.eigth_rb) {
